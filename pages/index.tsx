@@ -11,7 +11,9 @@ const HomePage = () => {
       <ParallaxPlain />
       <div className={'info'}>
         <FirstName />  
-        <LastName />
+      </div>
+      <div className={'contactInfo'}>
+      
       </div>
       <ParallaxPlain  />
       <ParallaxTechVaporwave />

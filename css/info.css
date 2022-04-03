@@ -16,15 +16,15 @@
 .LastName {
     font-size: 15rem;
     font-family: 'Karla', sans-serif;
-    color: rgb(16, 255, 231);
-    text-shadow: 0px 0px 8px rgb(255, 223, 14);
+    color: rgb(64, 238, 221);
+    text-shadow: 0px 3px 8px rgba(14, 1, 47, 0.393);
     scroll-snap-align: start;
 }
 
 .FirstName {
     position: absolute;
-    bottom: -35rem;
-    left: 40rem;
+    bottom: -55rem;
+    left: 30rem;
 }
 
 .LastName {
