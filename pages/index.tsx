@@ -3,6 +3,7 @@ import LastName from '../components/LastName';
 import FirstName from '../components/FirstName';
 import ParallaxTechVaporwave from '../components/ParallaxTechVaporwave';
 import ICanWrite from '../components/ICanWrite';
+import ContactInfo from '../components/ContactInfo';
 
 const HomePage = () => {
   return (
@@ -13,7 +14,7 @@ const HomePage = () => {
         <FirstName />  
       </div>
       <div className={'contactInfo'}>
-      
+        <ContactInfo /> 
       </div>
       <ParallaxPlain  />
       <ParallaxTechVaporwave />

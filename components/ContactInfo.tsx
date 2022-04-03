@@ -23,3 +23,6 @@ function ContactInfo = () => {
  
   return contactButton; 
 }
+ 
+
+export default ContactInfo;
