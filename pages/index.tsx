@@ -1,14 +1,18 @@
 import { Title, Text, Anchor } from '@mantine/core';
-import ParallaxBackground from '../components/ParallaxBackground';
-import AboutMe from '../components/AboutMe';
+import Parallax from '../components/Parallax';
+import ParallaxTwo from '../components/ParallaxTwo';
+import Info from '../components/Info';
 
 const HomePage = () => {
   return (
     <>
     <div className={'container'}>
-      <ParallaxBackground />
-        <AboutMe />
-      <ParallaxBackground /> 
+      <Parallax />
+        <Info />
+      <Parallax />
+      <ParallaxTwo /> 
+
+      <ParallaxTwo /> 
     </div>
     </>
   );

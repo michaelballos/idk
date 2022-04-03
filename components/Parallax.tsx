@@ -1,8 +1,6 @@
 const ParallaxBackground = () => {
   return (
-   <div className={"parallax"}>
-      <div className={"parallax-layer"} />
-   </div>
+   <div className={"parallax"} />
   )
 }
 
