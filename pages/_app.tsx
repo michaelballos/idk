@@ -1,10 +1,12 @@
 import { AppProps } from 'next/app';
-import Head from 'next/head';
 import { NotificationsProvider } from '@mantine/notifications';
+import Head from 'next/head';
+import HomePage from '../pages/index';
 import './../css/parallax.css';
 import './../css/info.css';
 import './../css/pageborder.css';
-import HomePage from '../pages/index';
+import './../css/ICanWrite.css';
+
 
 export default function App(props: AppProps & { colorScheme: ColorScheme }) {
 
